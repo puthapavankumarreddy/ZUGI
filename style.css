@@ -5,9 +5,13 @@
     scroll-behavior: smooth;
     font-family: 'Jost', sans-serif;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;          
 }
-header{
+.header{
+    background-color: white;
+}
+
+.header{
     position: fixed;
     width: 100%;
     top: 0;
@@ -17,6 +21,8 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 20px 10%;
+    color: white;
+
 }
 .logo img{
     max-width: 200px;
@@ -24,6 +30,7 @@ header{
 }
 .navmenu{
     display: flex;
+    color: white;
 }
 .navmenu a{
     color: #2c2c2c;
@@ -68,6 +75,7 @@ section{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     align-items: center;
+    margin-top: 100px;
 }
 .main-text h5{
     color: #ee1c47;
@@ -265,3 +273,47 @@ header.sticky{
     font-size: 14px;
     font-weight: 500;
 }
+.mySlider {
+    width: 80%; 
+    margin: auto; 
+  }
+  
+  #carouselExampleInterval {
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  
+  .carousel-inner {
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    width: 100%; 
+    border-radius: 10px; 
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%; 
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #333;
+    border-radius:50%;
+  }
+  /* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the footer */
+  footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Align text to the center */
+    padding: 20px 0; /* Add padding at the top and bottom */
+    /* position: fixed; Fixed position */
+    bottom: 0; /* Stick it to the bottom */
+    width: 100%; /* Full width */
+  }
+  
